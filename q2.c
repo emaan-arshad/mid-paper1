@@ -1,4 +1,7 @@
-
+//23I-2560
+//name:Emaan Arshad
+//dtae:10/15/23
+//desc: parking space sysytem (Q2)
 
 #include <stdio.h>
 
@@ -21,6 +24,7 @@ int main()
    while(N) {
        printf("\nwhat type of car: \n enter 1 for large car\n enter2 for medium size car\n enter 3 for small size car\n:");
        scanf("%d",&type);
+      //conditions for type of car and what space it will recieve and the feedback score ///
        if (type==1) {
            if(lar) {
                printf("you recieved a large parking space");
@@ -77,7 +81,10 @@ int main()
            
        }
        N--;
-   }
+   }//end while(N)
+  
+  //no of occupied spaces: 
+   
    int occ1=a-lar;
    int occ2=b-med;
    int occ3=c-small;
